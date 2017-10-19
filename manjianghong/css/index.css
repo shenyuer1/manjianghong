@@ -1,0 +1,443 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-08 18:46:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-18 09:00:13
+*/
+@import url('base.css');
+/* 头部 */
+body{
+	width: 100%;
+	height: auto;
+	background: #515967;
+}
+header{
+	width: 100%;
+	height: 125px;
+	background: #515967;
+}
+header main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+header main span{
+	font-size: 22px;
+	line-height: 125px;
+	color: #fff;
+}
+header main .right{
+	width: 486px;
+	height: 33px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+	display: flex;
+	justify-content: space-between;
+}
+header main .right a{
+	width: 86px;
+	height: 33px;
+	display: block;
+	background: #79808a;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #323742;
+	float: left;
+}
+header main .right .home{
+	background: #535e6f;
+}
+/* header main .right .contact{
+    background: #f6b61d;
+} */
+
+/* banner */
+.banner{
+	width: 100%;
+	height: 400px;
+	background: #fff;
+}
+.banner main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.banner main .icon-right1{
+   position: absolute;
+   left: 0;
+   top: 50%;
+   margin-top: -30px;
+   font-size: 60px;
+   line-height: 60px;
+   color: #495b69;
+}
+.banner main .icon-right{
+   position: absolute;
+   right: 0;
+   top: 50%;
+   margin-top: -30px;
+   font-size: 60px;
+   line-height: 60px;
+   color: #495b69;
+}
+.banner main .content{
+	width: 747px;
+	height: 292px;
+	margin: 58px auto;
+	border:1px solid  #464c5c;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.banner main .content .left{
+	width: 594px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.banner main .content .left .imglist{
+	width: 594px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.banner main .content .left .imglist li{
+	width: 594px;
+	height: 100%;
+	position: absolute;
+	left: 594px;
+	top: 0;  
+	/* display: none; */
+	/* transition: all 0.5s; */
+}
+.banner main .content .left .imglist li:first-child{
+	left: 0;
+}
+.banner main .content .left .imglist li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.banner main .content .left .btnlist{
+	width: 70px;
+	height: 10px;
+	position: absolute;
+	left: 50%;
+	top: 270px;
+	margin-left: -35px;
+}
+.banner main .content .left .btnlist li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: #dddddd;
+	margin-right: 20px;
+	float: left;
+}
+.banner main .content .left .btnlist li:first-child{
+	background:  #515967;
+}
+.banner main .content .left .btnlist li:last-child{
+	margin-right: 0}
+.banner main .content .right{
+	width: 151px;
+	height: 100%;
+	float: right;
+}
+.banner main .content .right ul{
+	width: 151px;
+	height: 100%;
+}
+.banner main .content .right ul li{
+	width: 151px;
+	height: 73px;
+	box-sizing: border-box;
+	padding-top: 10px;
+    padding-left: 20px;
+	border-left: 1px solid #464c5c;
+	border-bottom: 1px solid #464c5c;
+	background: #6d7582;
+	/* transition: all 1s; */
+}
+.banner main .content .right ul li:first-child{
+	background: #b9b9b9;
+}
+.banner main .content .right ul li:last-child{
+	border-bottom:0;
+	height: 72px;
+}
+.banner main .content .right ul li .s1{
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+}
+.banner main .content .right ul li img{
+	width: 14px;
+	height: 14px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 7px;
+}
+.banner main .content .right ul li .s2{
+	font-size: 14px;
+	line-height: 20px;
+	color: #cecece;
+}
+/* 选项 */
+.choose{
+	width: 100%;
+	height: 380px;
+	margin-top: 1px;
+	background: url('../img/bg.png') no-repeat center;
+	background-size: 100% 100%;
+}
+.choose main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.choose main div{
+	width: 216px;
+	height: 100%;
+}
+.choose main div .iconfont{
+	width: 100%;
+	height: 100px;
+	margin-top: 25px;
+	font-size: 50px;
+	line-height: 100px;
+	color: #525c6b;
+	text-align: center;
+}
+.choose main div .wen{
+	width: 100%;
+	height: 220px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #ababab;
+	background: #dedede;
+	text-align: center;
+}
+.choose main div .wen h3{
+	line-height: 60px;
+}
+
+.choose main div .wen p{
+	padding: 0 40px;
+}
+
+/* 底部 */
+.foot{
+	width: 100%;
+	height: 540px;
+}
+.foot main{
+	width: 920px;
+	height: 463px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 86px;
+	box-sizing: border-box;
+}
+.foot main .left,.foot main .mid,.foot main .right{
+	width: 218px;
+	height: 377px;
+	position: relative;
+	box-shadow: 0px 5px 0px 1px rgba(3, 3, 3, 0.1) inset;
+	box-sizing: border-box;
+}
+.foot .xian{
+	width: 920px;
+	height: 1px;
+	background: #323742;
+	border-bottom: 1px solid #818e9f;
+	margin: 30px auto 0;
+}
+.foot p{
+	text-align: center;
+	line-height: 45px;
+	font-size: 12px;
+	color: #373d4a;
+}
+.foot main .left h3{
+    text-align: center;
+    color: #d8d8da;
+    font-size: 22px;
+    line-height: 52px;
+}
+.foot main .left .wen1,.foot main .left .wen2{
+	width: 100%;
+	height: auto;
+	min-height: 110px;
+	padding: 0 13px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #323742;
+}
+.foot main .left .wen1 p,.foot main .left .wen2 p{
+	font-size: 12px;
+	line-height: 20px;
+	color: #fff;
+	text-align: left;
+
+}
+.foot main .left .wen1 span,.foot main .left .wen2 span{
+	font-size: 10px;
+	line-height: 20px;
+	color: #e3ac27;
+	text-align: left;
+}
+.foot main .left .bottom{
+	width: 100%;
+	height: 45px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.foot main .left .bottom div{
+	width: 45px;
+	height: 45px;
+	border-radius: 5px;
+	background: #b9f0f3;
+}
+.foot main .left .bottom .yuan{
+	background: #e8e8e7;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px;
+	padding-left: 6px;
+	padding-right: 6px;
+	box-sizing: border-box;
+}
+.foot main .left .bottom .yuan .yuan1{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #0069db;
+}
+.foot main .left .bottom .yuan .yuan2{
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: #ff0089;
+}
+.foot main .left .bottom div.iconfont{
+	font-size: 45px;
+
+}
+.foot main .mid h3{
+	text-align: center;
+    color: #d8d8da;
+    font-size: 22px;
+    line-height: 52px;
+}
+.foot main .mid .xia{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.foot main .mid .xia .name,.foot main .mid .xia .phone,.foot main .mid .xia .email{
+	width: 100%;
+	height: 34px;
+	margin-bottom: 11px;
+	background: #455163;
+	border: 1px solid #323742;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding-left: 5px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+}
+.foot main .mid .xia input{
+	width: 80%;
+	height: 32px;
+	float: right;
+	background: #455163;
+	border: none;
+	outline: none;
+}
+.foot main .mid .xia .massage{
+	width: 100%;
+	height: 104px;
+	background: #455163;
+	border: 1px solid #323742;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding-left: 5px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+	margin-bottom: 12px;
+}
+.foot main .mid .xia textarea{
+	width: 100%;
+	height: auto;
+	background: #455163;
+	border: none;
+	box-sizing: border-box;
+	outline: none;
+	
+	resize: none;
+}
+.foot main .mid .xia button{
+	width: 100%;
+	height: 45px;
+	background: #e8ab19;
+	border: none;
+	border: 1px solid #323742;
+	box-sizing: border-box;
+	outline: none;
+	border-radius: 5px;
+	padding-left: 5px;
+	color: #fff;
+}
+.foot main .right h3{
+    text-align: center;
+    color: #d8d8da;
+    font-size: 22px;
+    line-height: 52px;
+    margin-bottom: 30px;
+}
+.foot main .right .weizhi{
+	width: 100%;
+	height: 125px;
+	background: red;
+	box-sizing: border-box;
+	border: 1px solid #323742;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.foot main .right .weizhi img{
+	width: 216px;
+	height: 123px;
+	display: block;
+}
+.foot main .right span{
+	display: block;
+	color: #fff;
+	text-align: right;
+	font-size: 12px;
+	line-height: 20px;
+}
+.foot main .right .dianhua{
+	margin-top: 10px;
+}
+p.di{
+	color: #fff;
+	font-size: 12px;
+}

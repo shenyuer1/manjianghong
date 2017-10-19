@@ -1,0 +1,241 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-15 16:57:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-15 22:08:26
+*/
+@import url('base.css');
+/* 头部 */
+body{
+	width: 100%;
+	height: auto;
+	background: #515967;
+}
+header{
+	width: 100%;
+	height: 125px;
+	background: #515967;
+}
+header main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+header main span{
+	font-size: 22px;
+	line-height: 125px;
+	color: #fff;
+}
+header main .right{
+	width: 486px;
+	height: 33px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+	display: flex;
+	justify-content: space-between;
+}
+header main .right a{
+	width: 86px;
+	height: 33px;
+	display: block;
+	background: #79808a;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #323742;
+	float: left;
+}
+header main .right .service{
+	background: #535e6f;
+}
+/* header main .right .contact{
+    background: #f6b61d;
+} */
+/* services */
+.services{
+	width: 100%;
+	height: 580px;
+	background: #fff;
+}
+.services main{
+	width: 930px;
+	height: 100%;
+	margin: 0 auto;
+}
+.services main .top{
+	font-size: 28px;
+	line-height: 150px;
+	text-align: center;
+	color: #515967;
+}
+.services main .content{
+	width: 100%;
+	height: 430px;
+	display: flex;
+	justify-content: space-between;
+}
+.services main .content .da{
+	width: 305px;
+	height: 100%;
+	position: relative;
+	background: #515967;
+	text-align: center;
+	box-sizing: border-box;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.services main .content .da .tu{
+	width: 290px;
+	height: 250px;
+	margin: 15px auto 0;
+	box-sizing: border-box;
+}
+.services main .content .da .tu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.services main .content .da h4{
+	font-size: 18px;
+	line-height: 42px;
+	color: #fff;
+}
+.services main .content .da p{
+	font-size: 14px;
+	line-height: 25px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #fff;
+
+}
+.services main .content .da .zhe{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 305px;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.4);
+	opacity: 0;
+}
+.services main .content .da:hover .zhe{
+	opacity: 1;
+}
+/* ps */
+.ps{
+    width: 100%;
+	height:auto; 
+	background: #fff;
+}
+.ps .main{
+	width: 920px;
+	height:500px;
+	padding: 16px 0 60px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.ps .main .top{
+	width: 100%;
+	height: 134px;
+	
+}
+.ps .main .top h3{
+	color: #515967;
+	line-height: 134px;
+	text-align: center;
+	font-size: 22px;
+}
+.ps .main .buttom{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+.ps .main .left{
+	width: 40%;
+	height: 100%;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+.ps .main .left img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.ps .main .right{
+	width: 60%;
+	height: 100%;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.ps .main .right h5{
+	text-align: left;
+	line-height: 25px;
+	font-size: 20px;
+	color: #515967;
+	margin-bottom: 25px;
+}
+.ps .main .right .p1{
+	text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+	color: #999999;
+	margin-bottom: 20px;
+	margin-bottom: 35px;
+}
+.ps .main .right .p2{
+	text-align: left;
+	line-height: 20px;
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 20px;
+}
+/* offer */
+.offer{
+	width: 100%;
+	height: 375px;
+	background: #848f99;
+}
+.offer main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+}
+.offer main h3{
+	font-size: 36px;
+	text-align: center;
+	line-height: 150px;
+}
+.offer main .buttom{
+	width: 100%;
+	height: 225px;
+	display: flex;
+	justify-content: space-between;
+}
+.offer main .buttom div{
+	width: 300px;
+	height: 225px;
+}
+.offer main .buttom div li a{
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+}
+.offer main .buttom div li a:hover{
+	color: #515967;
+}
+/* di */
+.foot{
+	width: 100%;
+	height: 50px;
+}
+.foot .di{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 50px;
+}

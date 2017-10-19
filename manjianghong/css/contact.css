@@ -1,0 +1,197 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-14 15:42:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-15 22:07:50
+*/
+@import url('base.css');
+/* 头部 */
+body{
+	width: 100%;
+	height: auto;
+	background: #515967;
+}
+header{
+	width: 100%;
+	height: 125px;
+	background: #515967;
+}
+header main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+header main span{
+	font-size: 22px;
+	line-height: 125px;
+	color: #fff;
+}
+header main .right{
+	width: 486px;
+	height: 33px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+	display: flex;
+	justify-content: space-between;
+}
+header main .right a{
+	width: 86px;
+	height: 33px;
+	display: block;
+	background: #79808a;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #323742;
+	float: left;
+}
+header main .right .contact{
+	background: #535e6f;
+}
+/* header main .right .contact{
+    background: #f6b61d;
+} */
+/* contact */
+.contact{
+	width: 100%;
+	height: 531px;
+	background: #fff;
+}
+.contact main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: center;
+	line-height: 136px;
+}
+.contact main h3{
+	font-size: 26px;
+	color: #515967;
+}
+.contact main .tu{
+	width: 100%;
+	height: 380px;
+}
+.contact main .tu img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* 信息 */
+.xinxi{
+	width: 100%;
+	height: 700px;
+	background: #fff;
+}
+.xinxi main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+}
+.xinxi main .left{
+	width: 580px;
+	height: 100%;
+	float: left;
+	padding-top: 45px;
+	box-sizing: border-box;
+}
+.xinxi main .right{
+	width: 250px;
+	height: 100%;
+	float: right;
+	padding-top: 45px;
+	box-sizing: border-box;
+
+}
+.xinxi main h3{
+    font-size: 24px;
+    line-height: 102px;
+    text-align: left;
+    color: #515967;
+}
+.xinxi main p{
+	font-size: 14px;
+	color: #999999;
+	line-height: 24px;
+}
+.xinxi main p a{
+	font-size: 10px;
+	color: #999999;
+}
+.xinxi main p a:hover{
+	text-decoration: underline;
+}
+.xinxi main .left input{
+	width: 360px;
+	height: 44px;
+	display: block;
+	box-sizing: border-box;
+	border: 1px solid #bbbbbb;
+	margin-top: 20px;
+	padding-left: 10px;
+	color: #bbbbbb;
+	outline: none;
+	border-radius: 5px;
+}
+.xinxi main .left textarea{
+	width: 580px;
+	height: 200px;
+	display: block;
+	resize: none;
+	box-sizing: border-box;
+	border: 1px solid #bbbbbb;
+	margin-top: 20px;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #bbbbbb;
+	outline: none;
+	border-radius: 5px;
+}
+.xinxi main .left .button{
+	width: 146px;
+	height: 39px;
+	position: relative;
+}
+.xinxi main .left button{
+	width: 146px;
+	height: 39px;
+	display: block;
+	background: #515967;
+	margin-top: 20px;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+.xinxi main .left .button:hover .zhe{
+	opacity: 1;
+}
+.xinxi main .left .button .zhe{
+	width: 146px;
+	height: 39px;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, 0.3);
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+/* di */
+.foot{
+	width: 100%;
+	height: 50px;
+}
+.foot .di{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 50px;
+}

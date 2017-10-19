@@ -1,0 +1,240 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-15 20:47:08
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-16 23:08:02
+*/
+@import url('base.css');
+/* 头部 */
+body{
+	background: #515967;
+	position: relative;
+	width: 100%;
+}
+.mask{
+	width: 100%;
+	height: 662px;
+	z-index: 300;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.5s;
+	transform: scale(0, 0);
+}
+.active{
+	z-index: 210;
+	transform: scale(1, 1);
+}
+.mask .tu{
+	width: 800px;
+	height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.8);
+
+}
+.mask .tu img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.mask a{
+		color: #fff;
+		width: 50px;
+		height: 50px;
+		display: block;
+		font-size: 30px;
+		line-height: 50px;
+		text-decoration: none;
+	}
+	.mask .a1{
+        position: absolute;
+        top: -30px;
+        right: -30px;
+	}
+	.mask .a2{
+        position: absolute;
+        top: calc(50%);
+        margin-top: -25px;
+        left: -50px;
+	}
+	.mask .a3{
+        position: absolute;
+        top: calc(50%);
+        margin-top: -25px;
+        right: -75px;
+	}
+	/* header */
+header{
+	width: 100%;
+	height: 125px;
+	background: #515967;
+}
+header main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+header main span{
+	font-size: 22px;
+	line-height: 125px;
+	color: #fff;
+}
+header main .right{
+	width: 486px;
+	height: 33px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+	display: flex;
+	justify-content: space-between;
+}
+header main .right a{
+	width: 86px;
+	height: 33px;
+	display: block;
+	background: #79808a;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #323742;
+	float: left;
+}
+header main .right .portfolio{
+	background: #535e6f;
+}
+/* header main .right .contact{
+    background: #f6b61d;
+} */
+/* activities */
+.activities{
+	width: 100%;
+	height: 1138px;
+	background: #fff;
+}
+.activities main{
+	width: 930px;
+	height: 100%;
+	margin: 0 auto;
+}
+.activities main h3{
+	font-size: 32px;
+	line-height: 158px;
+	text-align: center;
+}
+.activities main ul{
+	width: 100%;
+	height: 980px;
+	overflow: hidden;
+}
+.activities main ul li{
+	width: 310px;
+	height: 308px;
+	box-sizing: border-box;
+	border: 1px solid #f4f4f4;
+	float:left;
+	position: relative;
+	overflow: hidden;
+}
+.activities main ul li .tu{
+	width: 280px;
+	height: 278px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -140px;
+	margin-top: -139px;
+	transition: all 0.5s;
+
+}
+.activities main ul li .tu .img1{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.activities main ul li .tu .zhe{
+	width: 280px;
+	height: 180px;
+	display: none;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all ease 0.5s;
+}
+.activities main ul li .tu:hover .zhe{
+	display: block;
+	transform: translateY(49px);
+	/* top: 69px; */
+}
+.activities main ul li .tu .zhe a{
+	width: 40px;
+	height: 40px;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -20px;
+	margin-top: -20px;
+}
+.activities main ul li .tu .zhe img{
+	width: 40px;
+	height: 40px;
+	display: block;
+	
+}
+
+/* lianxi */
+.lianxi{
+	width: 100%;
+	height: 140px;
+	background: #848f99;
+}
+.lianxi main{
+	width: 932px;
+	height: 100%;
+	margin: 0 auto;
+/* 	box-sizing: border-box;
+	padding-top: 36px; */
+	display: flex;
+	justify-content: space-between;
+}
+.lianxi main div{
+	width: 234px;
+	height: 140px;
+	text-align: center;
+}
+.lianxi main div span{
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+}
+.lianxi main div .iconfont{
+	font-size: 30px;
+	line-height: 140px;
+	color: #fff;
+}
+.lianxi main div .s1{
+	font-size: 14px;
+	line-height: 140px;
+}
+/* di */
+.foot{
+	width: 100%;
+	height: 50px;
+}
+.foot .di{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 50px;
+}

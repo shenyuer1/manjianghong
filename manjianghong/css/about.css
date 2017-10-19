@@ -1,0 +1,253 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-14 15:42:39
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-15 22:08:00
+*/
+@import url('base.css');
+/* 头部 */
+body{
+	width: 100%;
+	height: auto;
+	background: #515967;
+}
+header{
+	width: 100%;
+	height: 125px;
+	background: #515967;
+}
+header main{
+	width: 920px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+header main span{
+	font-size: 22px;
+	line-height: 125px;
+	color: #fff;
+}
+header main .right{
+	width: 486px;
+	height: 33px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -15px;
+	display: flex;
+	justify-content: space-between;
+}
+header main .right a{
+	width: 86px;
+	height: 33px;
+	display: block;
+	background: #79808a;
+	text-align: center;
+	line-height: 32px;
+	color: #fff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #323742;
+	float: left;
+}
+header main .right .about{
+	background: #535e6f;
+}
+/* header main .right .contact{
+    background: #f6b61d;
+} */
+/* 介绍 */
+.jieshao{
+    width: 100%;
+	height:auto; 
+	background: #fff;
+}
+.jieshao .main{
+	width: 920px;
+	height:466px;
+	padding: 16px 0;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.jieshao .main .top{
+	width: 100%;
+	height: 134px;
+	
+}
+.jieshao .main .top h3{
+	color: #515967;
+	line-height: 134px;
+	text-align: center;
+	font-size: 22px;
+}
+.jieshao .main .buttom{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+.jieshao .main .left{
+	width: 40%;
+	height: 100%;
+	padding-right: 15px;
+	box-sizing: border-box;
+}
+.jieshao .main .left img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jieshao .main .right{
+	width: 60%;
+	height: 100%;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.jieshao .main .right h5{
+	text-align: left;
+	line-height: 25px;
+	font-size: 20px;
+	color: #515967;
+	margin-bottom: 25px;
+}
+.jieshao .main .right .p1{
+	text-align: left;
+	font-size: 14px;
+	line-height: 20px;
+	color: #999999;
+	margin-bottom: 20px;
+	margin-bottom: 35px;
+}
+.jieshao .main .right .p2{
+	text-align: left;
+	line-height: 20px;
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 20px;
+}
+/* 成员 */
+.chengyuan{
+    width: 100%;
+	height:auto; 
+	background: #fff;
+}
+.chengyuan .main{
+	width: 920px;
+	height:400px;
+	padding: 20px 0 0;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.chengyuan .main .top{
+	width: 100%;
+	height: 132px;
+	
+}
+.chengyuan .main .top h3{
+	color: #515967;
+	line-height: 132px;
+	text-align: center;
+	font-size: 22px;
+}
+.chengyuan .main .buttom{
+	width: 100%;
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+}
+.chengyuan .main .buttom .tu{
+	width: 220px;
+	height: 100%;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.chengyuan .main .buttom .tu .img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.chengyuan .main .buttom .tu .yincang{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	left: 0;
+	top: 200px;
+	transition: all 0.3s ease;
+	text-align: center;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.chengyuan .main .buttom .tu .yincang h4{
+	font-size: 16px;
+	line-height: 50px;
+	color: #fff;
+}
+.chengyuan .main .buttom .tu .yincang p{
+	font-size: 14px;
+	line-height: 20px;
+	color: #fff;
+}
+.chengyuan .main .buttom .tu:hover .yincang{
+	top: 0px;
+	padding-top: 60px;
+}
+/* why */
+.why{
+    width: 100%;
+	height:auto; 
+	background: #fff;
+}
+.why main{
+	width: 920px;
+	height:399px;
+	padding: 16px 0;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.why main .top{
+	width: 100%;
+	height: 134px;
+	
+}
+.why main .top h3{
+	color: #515967;
+	line-height: 134px;
+	text-align: center;
+	font-size: 22px;
+}
+.why main .buttom{
+	width: 100%;
+	height: 230px;
+	display: flex;
+	justify-content: space-between;
+}
+.why main .buttom div{
+	width: 250px;
+	height: 100%;
+	text-align: center;
+}
+.why main .buttom div h4{
+	font-size: 18px;
+	line-height: 46px;
+	color: #426271;
+}
+.why main .buttom div p{
+	font-size: 14px;
+	line-height: 26px;
+	color: #999999;
+}
+
+/* di */
+.foot{
+	width: 100%;
+	height: 50px;
+}
+.foot .di{
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 50px;
+}
